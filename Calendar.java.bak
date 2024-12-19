@@ -1,0 +1,15 @@
+import java.until.Calendar;
+import java.until.Date;
+public class calendar
+{
+	public static void main(String args[])
+	{
+		Calendar calendar=Calendar.getInstance();
+		calendar.set(2012,8,19);
+		DatefirstDate=calendar.getTime();
+		calendar.set(2012,18,1);
+		DatesecondDate=calendar.getTime();
+		System.out.println("Is firstdate before secondDate?"+firstDate.before(secondDate));
+        System.out.println("Is firstdate after secondDate?"+firstDate.after(secondDate));
+	}
+}
